@@ -1,0 +1,18 @@
+# Chef assumes that it owns this file.
+# Additions to bash should be placed into <%= @bash_includes_dirname %> with a .sh extension
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+  . ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+PATH=$PATH:$HOME/bin
+
+export PATH
+
+
+for file in ~/<%= @bash_includes_dirname %>/*.sh; do
+  [[ -r $file ]] && source $file;
+done

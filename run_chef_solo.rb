@@ -1,0 +1,1 @@
+chef-solo -l debug -c ./chef/solo.rb

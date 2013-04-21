@@ -1,0 +1,9 @@
+{
+
+   "run_list" : [  
+                  "recipe[osx_workstation::bash_profile-cdr]",
+                  "recipe[osx_worksation::bash_profile-proxies]",
+                  "recipe[osx_workstation::bash_profile-rvm]",
+                  "recipe[osx_workstation::bash_profile-ps1]",
+                ]
+}
