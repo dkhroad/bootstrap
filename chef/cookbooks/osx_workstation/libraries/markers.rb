@@ -15,11 +15,10 @@ class Chef::Recipe
   #And reinstalls are easy - just rm the relevant marker file.
 
   def run_unless_marker_file_exists(marker_file_name)
-    ws_user = "#{ENV['USER']}
-    marker_dir = "#{ENV['HOME']}/.install_markers"
+    marker_dir = "#{WS_HOME}/.install_markers"
     directory marker_dir do
-      owner ws_user
-      group ws_user
+      owner WS_USER
+      group WS_USER
       recursive true
     end
 

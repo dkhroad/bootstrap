@@ -1,1 +1,1 @@
-main_bash_profile_include "cdr"
+osx_workstation_bash_profile_include "cdr"
