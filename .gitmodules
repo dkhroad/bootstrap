@@ -1,0 +1,12 @@
+[submodule "chef/cookbooks/dmg"]
+	path = chef/cookbooks/dmg
+	url = https://github.com/opscode-cookbooks/dmg.git
+[submodule "chef/cookbooks/iterm2"]
+	path = chef/cookbooks/iterm2
+	url = https://github.com/jtimberman/iterm2-cookbook.git
+[submodule "chef/cookbooks/mac_os_x"]
+	path = chef/cookbooks/mac_os_x
+	url = https://github.com/jtimberman/mac_os_x-cookbook.git
+[submodule "chef/cookbooks/homebrew"]
+	path = chef/cookbooks/homebrew
+	url = https://github.com/opscode-cookbooks/homebrew.git

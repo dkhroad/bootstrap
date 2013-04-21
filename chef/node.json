@@ -3,6 +3,8 @@
    "run_list" : [  
                   "recipe[osx_workstation::bash_profile-cdr]",
                   "recipe[osx_workstation::bash_profile-rvm]",
-                  "recipe[osx_workstation::bash_profile-ps1]"
+                  "recipe[osx_workstation::bash_profile-ps1]",
+                  "recipe[iterm2]",
+                  "recipe[osx_workstation]"
                 ]
 }
